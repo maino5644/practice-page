@@ -1,0 +1,76 @@
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+body{
+    font-family: 'Hanna', serif;
+}
+#Frame{
+    width: 1440px;
+    height: 950px;
+    margin: 0 auto;
+    border: 1px solid #aaa;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+.header{
+    text-align: center;
+    background-color:rgba(0,0,0,0.8);
+    padding: 40px 10px;
+}
+.LOGO{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    word-spacing: 30px;
+
+}
+.container{
+    width : 1440px;
+    height: 500px;
+    padding-top:180px;
+    box-sizing: border-box;
+}
+.logbox{
+    width: 460px;
+    height: 300px;
+    border: 1px solid black;
+    margin-left:489px;
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+    word-spacing: 20px;
+    font-size: 2em;
+}
+.logbox input[type="text"], .logbox input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 25px auto;
+    text-align: center;
+    border: 2px solid #3099f4;
+    padding: 14px 20px;
+    width: 200px;
+    color: white;
+    border-radius: 24px;
+    transition: 0.5s ;
+    outline: none;
+}
+.logbox input[type="text"]:focus, .logbox input[type = "password"]:focus{
+    width:280px;
+    border-color: #5bdfef;
+}
+.logbox input[type="submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    border: 2px solid #F6762D;
+    padding: 10px 6px;
+    width: 150px;
+    color: white;
+    border-radius: 24px;
+    transition: 0.5s ;
+    outline: none;
+    cursor: pointer;
+}
+.logbox input[type="submit"]:hover{
+    background:#f4925a;
+}
